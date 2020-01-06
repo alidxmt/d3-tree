@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Tree</title>
+</head>
+<body>
+    <!-- <div class="example_div"></div> -->
+    <div id="form"> <br>-----------New Node----------<br> 
+      <input type="hidden" name="" id="node">
+      <label>  Question : </label>
+      <input type="text" name="question" id="input-question"><br><br>
+      <label>   Value :  </label><input type="text" name="value" id="input-value"><br><br>
+      <label>   Description :  </label><input type="text" name="input-variable" id="input-question-variable"><br><br>
+      <input type="button" value="add a node" id="btnAddANode">
+      <input type="button" value="cancel" onclick="document.getElementById('form').style.visibility='hidden';">
+    </div>
+    <div id="tree-div">
+
+    </div>
+</body>
+<script src="tree-var.js"></script>
+
+</html>

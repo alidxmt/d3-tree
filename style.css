@@ -1,0 +1,50 @@
+
+.node rect {
+    fill: #fff;
+    stroke: rgb(120, 169, 212);
+    stroke-width: 3px;
+}
+.node circle {
+    fill: #fff;
+    stroke: rgb(137, 111, 170);
+    stroke-width: 3px;  
+
+}
+
+.node text { font: 12px sans-serif; }
+
+.node--internal text {
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+
+#form {
+    max-width: 200px;
+    background-color: rgb(30, 101, 233);
+    color:rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    position:absolute;
+    visibility: hidden;
+}
+
+.div-tooltip {
+
+    position:absolute;
+    z-index:10;
+    visibility:hidden;
+    width:224px;
+    max-width: 224px;
+    display: inline-block;
+    border: solid;
+    border-radius: 5px;
+    padding: 12px;
+
+}
+
+
